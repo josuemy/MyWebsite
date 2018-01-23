@@ -27,6 +27,7 @@ hr.division{
 
 #skills {
   position: relative;
+  background-attachment: fixed;
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -123,6 +124,7 @@ hr.division{
 
 #contact {
   position: relative;
+  background-attachment: fixed;
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -220,7 +222,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #f0f0f0;
 }
 h1,
 h2,
@@ -261,7 +263,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #f0f0f0;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
