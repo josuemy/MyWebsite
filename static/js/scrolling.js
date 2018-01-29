@@ -13,7 +13,7 @@ $(".page-scroll").on('click', function(e) {
 
        // when done, add hash to url
        // (default click behaviour)
-       window.location.hash = hash;
+       // window.location.hash = hash;
      });
 
 });
