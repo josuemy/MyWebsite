@@ -3,6 +3,10 @@ body {
   height: 100%;
   width: 100%;
 }
+
+@@media query {
+
+}
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -145,6 +149,7 @@ hr.division{
 .contact-wrapper {
   margin: auto;
   width: 400px;
+  max-width: 70%;
 }
 
 .form-button {
@@ -209,9 +214,14 @@ hr.division{
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .parallax {
+      background-attachment: scroll;
+  }
 }
 
 input, textarea {
