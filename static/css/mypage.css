@@ -211,7 +211,7 @@ hr.division{
 }
 
 @media only screen and (max-device-width: 1024px) {
-  #skills #contact # about {
+  #skills #contact #page-top {
     overflow: hidden;
   }
   .parallax {
@@ -409,11 +409,12 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 
+
 header .header-content .header-content-inner {
   margin-top: 30%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 667px) {
   header {
     min-height: 100%;
   }
