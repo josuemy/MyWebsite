@@ -163,6 +163,9 @@ hr.division{
   cursor:default;
 }
 
+.social-list {
+  padding-left: 15px;
+}
 .social-strip{
   padding: 15px;
   background-color: rgb(36, 36, 36);
@@ -328,7 +331,7 @@ aside {
 
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: rgb(38, 38, 38);
+    background-color: rgba(38, 38, 38, 0.5);
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -380,7 +383,7 @@ header {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url('../images/josue_mountain.jpg');
+    ), url('../images/josue_mountain2.jpg');
   text-align: center;
   color: white;
 }
