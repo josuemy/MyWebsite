@@ -163,6 +163,12 @@ hr.division{
   cursor:default;
 }
 
+textarea.form-message {
+  resize: none;
+  height: 20vh;
+}
+
+
 .social-list {
   padding-left: 15px;
 }
