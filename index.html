@@ -6,16 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
+  <meta name="description" content="Hi there! This is the portfolio website for Josue Montenegro. Here you'll find his most recent resume, projects, and social media links. Enjoy!">
   <meta name="author" content="">
 
   <title>Josue Montenegro</title>
+  <link rel="shortcut icon" href="favicon.ico" />
 
   <!-- Bootstrap core CSS -->
   <link href="static/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
   <!-- Custom Fonts -->
   <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -26,15 +24,6 @@
   <!-- Custom styles for this template -->
   <link href="static/css/mypage.css" rel="stylesheet">
 
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -70,7 +59,7 @@
     <!-- /.container-fluid -->
   </nav>
 
-  <header id="page-top">
+  <header id="page-top" class="parallax">
     <div class="header-content">
       <div class="header-content-inner">
         <h1 id="homeHeading">Josue Montenegro</h1>
@@ -87,21 +76,21 @@
     </div>
     <div class="container about-section">
       <div class="row">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center intro">
           <i class="fa fa-4x fa-university sr-icons"></i>
           <hr />
-          <p class="text-faded">
-            Hello! My name is Josue Montenegro and I'm an international CS student at UCSB -- I'm graduating on June 2018! I'm a person who is constantly looking for things to learn and is passionate about helping others do the same.
+          <p class="text-muted">
+            Hello! My name is Josue Montenegro and I'm an international CS student at UCSB graduating in June of 2018. I'm constantly looking for things to learn and passionate about helping others do the same.
           </p>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center intro">
           <i class="fa fa-4x fa-code sr-icons"></i>
           <hr />
           <p class="text-muted">
-            I enjoy spending my time reading about new technologies, computer security, and web development. I also like to discuss new app ideas with friends and organize a team to develop them.
+            I enjoy spending my time reading about new technologies, computer security, and web development. I also like to discuss new app ideas with friends and organize teams to develop them.
           </p>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center intro">
           <i class="fa fa-4x fa-camera-retro sr-icons"></i>
           <hr />
           <p class="text-muted">
@@ -114,7 +103,7 @@
 
   <!-- <hr class="division" /> -->
 
-  <section id="skills">
+  <section id="skills" class="parallax">
     <div class="container text-center">
       <h1 class="section-heading">Skills</h1>
     </div>
@@ -145,10 +134,10 @@
             <span>Tools </span>
           </h2>
             <ul>
+              <li class="tool-item"> Atom</li>
               <li class="tool-item"> Git / GitHub</li>
               <li class="tool-item"> Command Line</li>
               <li class="tool-item"> Chrome DevTools</li>
-              <li class="tool-item"> Atom</li>
             </ul>
             <h2 class="skill-title">
             <span class="title-icon"> <i class="fa fa-1x fa-book"></i></span>
@@ -176,14 +165,14 @@
       <div class="container project-item">
         <div class="row">
           <div class="col-md-6 proj-description">
-            <h2> <a href="https://github.com/josuemy/Corepool">Corepool</a></h2>
+            <h2> <a target="_blank" href="https://github.com/josuemy/Corepool">Corepool</a></h2>
             <p class="text-muted">
               During my internship at Procore, I had the opportunity to develop a mobile app that improved the parking and commuting logistics for the company's employees. I worked along with other 3 interns who shared my passion to learn new technologies and develop
               a good quality product. By the end of a week and a half, our product was completely functional and ready to be used.
             </p>
           </div>
           <div class="col-md-6 proj-img">
-            <a href="https://github.com/josuemy/Corepool" class="portfolio-box">
+            <a target="_blank" href="https://github.com/josuemy/Corepool" class="portfolio-box">
               <img src="static/images/corepool_mockup.png" class="img-responsive phone-mockup" alt="Corepool">
             </a>
           </div>
@@ -193,14 +182,14 @@
       <div class="container project-item">
         <div class="row">
           <div class="col-md-6 proj-description">
-            <h2><a href="https://play.google.com/store/apps/details?id=com.ucsb.cowbell&hl=en">Cowbell</a></h2>
+            <h2><a target="_blank" href="https://play.google.com/store/apps/details?id=com.ucsb.cowbell&hl=en">Cowbell</a></h2>
             <p class="text-muted">
-              Cowbell is an alarm clock app for Android. Cowbell helps you wake up while it helps you learn with its three different wake up options. The user can create and customize a set of fill-in the blank or multiple choice cards that will pop up at the time
-              the alarm goes off. The user will have to answer correctly in order to shut down the alarm!
+              Cowbell is an alarm clock app for Android. Cowbell helps you wake up while it helps you learn with its three different wake up options. You'll be able to create and customize a set of fill-in the blank, or multiple choice cards that will pop up at the time
+              the alarm goes off. Answer correctly in order to shut down the alarm!
             </p>
           </div>
           <div class="col-md-6 proj-img">
-            <a href="https://play.google.com/store/apps/details?id=com.ucsb.cowbell&hl=en" class="portfolio-box">
+            <a target="_blank"href="https://play.google.com/store/apps/details?id=com.ucsb.cowbell&hl=en" class="portfolio-box">
               <img src="static/images/cowbell_mockup.png" class="img-responsive phone-mockup" alt="Cowbell">
             </a>
           </div>
@@ -210,7 +199,7 @@
       <div class="container project-item">
         <div class="row">
           <div class="col-md-6 proj-description">
-            <h2><a href="https://github.com/josuemy/Lobster">Lobster</a></h2>
+            <h2><a target="_blank" href="https://github.com/josuemy/Lobster">Lobster</a></h2>
             <p class="text-muted">
               Lobster is a chat app designed for you and your significant other. With Lobster, you can create a virtual
               room exclusively for you two where you'll be able to share daily thoughts, pictures, and anything you want
@@ -219,7 +208,7 @@
             </p>
           </div>
           <div class="col-md-6 proj-img">
-            <a href="https://play.google.com/store/apps/details?id=com.ucsb.cowbell&hl=en" class="portfolio-box">
+            <a target="_blank" href="https://github.com/josuemy/Lobster" class="portfolio-box">
               <img src="static/images/lobster_mockup.png" class="img-responsive phone-mockup" alt="Cowbell">
             </a>
           </div>
@@ -229,14 +218,14 @@
       <div class="container project-item">
         <div class="row">
           <div class="col-md-6 proj-description">
-            <h2> <a href="https://chronooz.herokuapp.com/">Chronooz</a></h2>
+            <h2> <a target="_blank" href="https://chronooz.herokuapp.com/">Chronooz</a></h2>
             <p class="text-muted">
               Don't know what the latest news are talking about? Are you missing context to understand them? Chronooz gathers popular news from more than 58 sources and gives you a timeline of related events. Everything to catch up with current events is now in one
-              place! I learned Ruby on Rails from scratch over the course of 24 hours and build this simple webapp with a friend of mine.
+              place! I learned Ruby on Rails from scratch over the course of 24 hours and built this simple webapp with a friend of mine.
             </p>
           </div>
           <div class="col-md-6 proj-img">
-            <a href="https://chronooz.herokuapp.com/" class="portfolio-box">
+            <a target="_blank" href="https://chronooz.herokuapp.com/" class="portfolio-box">
               <img src="static/images/chronooz_mockup.png" class="img-responsive" alt="Chronooz">
             </a>
           </div>
@@ -246,8 +235,9 @@
   </section>
 
   <div class="text-center">
-    <div class="">
-
+    <div href="resume.pdf" class="resume-strip">
+        <a class="resume-link" target="_blank" href="resume.pdf">Check out my full resume!</a> <br />
+        <a target="_blank" href="resume.pdf"><i class="fa fa-file-text"> </i></a>
     </div>
   </div>
 
@@ -263,20 +253,20 @@
     <div class="contact-wrapper text-left">
       <form action="https://formspree.io/josuemy@gmail.com" method="POST">
         <div class="form-group">
-          <label for="email">Name</label>
+          <label for="name">Name</label>
           <input type="text" class="form-control form-input" name="name" required>
         </div>
         <div class="form-group">
-          <label for="email">Email address:</label>
+          <label for="email">Email</label>
           <input type="email" class="form-control form-input" name="email" required>
         </div>
         <div class="form-group">
-          <label for="email">Subject</label>
+          <label for="subject">Subject</label>
           <input type="text" class="form-control form-input" name="_subject" required>
         </div>
         <div class="form-group">
-          <label for="email">Message</label>
-          <textarea class="form-control form-input" name="message" row="6" required></textarea>
+          <label for="message">Message</label>
+          <textarea class="form-control form-input form-message" name="message" required></textarea>
         </div>
         <div class="text-center form-button">
           <button type="submit" class="btn btn-primary">Send</button>
@@ -288,10 +278,10 @@
   <footer>
     <div class="text-center">
       <div class="social-strip">
-        <ul>
-          <li class="social-item linkedin"><a href="https://www.linkedin.com/in/josuemi/"><i class="fa fa-linkedin"> </i></a></li>
-          <li class="social-item github"><a href="https://github.com/josuemy"><i class="fa fa-github"> </i></a></li>
-          <li class="social-item instagram"><a href="https://www.instagram.com/joskacho/"><i class="fa fa-instagram"> </i></a></li>
+        <ul class="social-list">
+          <li class="social-item linkedin"><a target="_blank" href="https://www.linkedin.com/in/josuemi/"><i class="fa fa-linkedin"> </i></a></li>
+          <li class="social-item github"><a target="_blank" href="https://github.com/josuemy"><i class="fa fa-github"> </i></a></li>
+          <li class="social-item instagram"><a target="_blank" href="https://www.instagram.com/joskacho/"><i class="fa fa-instagram"> </i></a></li>
         </ul>
         <div class="copyright">
           © 2018 Copyright: Josue Montenegro
@@ -300,13 +290,10 @@
     </div>
   </footer>
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Bootstrap core js -->
   <script src="static/js/bootstrap.min.js"></script>
-  <script src="static/js/scrollreveal.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="static/js/scrolling.js">
   </script>
 
