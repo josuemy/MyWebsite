@@ -69,9 +69,22 @@ hr.division{
 }
 
 .tool-container {
-  text-align: left;
+  text-align: center;
   margin: auto;
   width: 250px;
+}
+
+@media (min-width: 768px) {
+  .tool-container {
+    text-align: left;
+  }
+  #skills ul{
+    margin-left: 0px;
+  }
+}
+
+#skills ul{
+  margin-left: -10%;
 }
 
 .skill-title {
