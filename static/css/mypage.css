@@ -255,6 +255,7 @@ textarea{
   background-color: #353535;
   color: white;
   font-size: 40px;
+  transition: 0.3s;
 }
 
 .resume-strip:hover{
