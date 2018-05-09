@@ -678,7 +678,7 @@ fieldset[disabled] .btn-primary.active {
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #ffbe6a;
 }
 img::selection {
   color: white;
