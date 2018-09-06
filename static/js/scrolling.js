@@ -28,5 +28,5 @@ $(document).ready(function() {
   sr.reveal(document.querySelectorAll('.tool-item'),80);
   sr.reveal(document.querySelectorAll('.intro'),80);
   sr.reveal(document.querySelectorAll('.tool-item'),80);
-  sr.reveal(document.querySelectorAll('.social-item'),80);
+  sr.reveal(document.querySelectorAll('.social-item'),200);
 });
